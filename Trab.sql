@@ -75,3 +75,9 @@ insert into salao_obra ( salao_cod_salao, obra_cod_obra, posicao_salao) values
 
 insert into obra (cod_obra, ano_obra, titu_obra, peso_obra, material_obra, desc_estilo_obra, cod_autor, cod_tipo_obra) values
 (1, 2005, "Escolhido", 5.23, "madeira", "surrealista", 1, 1)
+
+insert into atividade (ob_cod_obra, func_id_funcionario, hora_entrada, hora_saida, data_atividade) values
+()
+
+insert into funcionario (id_funcionario, nome_funcionario, salario_funcionario, cpf_funcionario, cod_tipo_funcionario) values 
+()
