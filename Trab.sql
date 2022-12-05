@@ -4,7 +4,7 @@ insert into autor (cod_autor, nacionalidade_autor, nome_autor) values
 (3, "BR", "Pedro Lucas"),
 (4, "BE", "Liah Olívia"),
 (5, "BR", "Larissa Rodriguez"),
-(6, "BR", ""),
+(6, "BR", "Luca Lopez "),
 (7, "CA", "Emma Stone"),
 (8, "BR", "Lucas Henrique"),
 (9, "US", "John Locke"),
@@ -77,7 +77,16 @@ insert into obra (cod_obra, ano_obra, titu_obra, peso_obra, material_obra, desc_
 (1, 2005, "Escolhido", 5.23, "madeira", "surrealista", 1, 1)
 
 insert into atividade (ob_cod_obra, func_id_funcionario, hora_entrada, hora_saida, data_atividade) values
-()
+(1, 1, "13;04:02", "17;10:04", "2022-04-10")
 
 insert into funcionario (id_funcionario, nome_funcionario, salario_funcionario, cpf_funcionario, cod_tipo_funcionario) values 
+(1, "Davi", 1440.00, "780.760.123-00", 1),
+
+insert into manu_mat ( Campo_1, Campo_2, qtd_mat_mnt) values
+()
+
+insert into manutencao (mnt_obra, data_termi_mnt, custo_mnt, data_init_mnt, desc_mnt, cod_obra, func_id_funcionario) values
+('Obra Reformada', "2005-05-10", 5235.00, "2005-02-03", "Feito a restauração", 1, 1  )
+
+insert into materia_prima (cod_mat_prima, qtd_est_mat, nome_mat_prima) values
 ()
