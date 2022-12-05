@@ -51,4 +51,27 @@ insert into salao(cod_salao, num_salao, andar_museu, salao) values
 (19, 205, 2, "Content "),
 (20, 108, 1, "Genesis"),
 
-ins
+insert into salao_obra ( salao_cod_salao, obra_cod_obra, posicao_salao) values
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+(1, 1m "centro do salão"),
+
+insert into obra (cod_obra, ano_obra, titu_obra, peso_obra, material_obra, desc_estilo_obra, cod_autor, cod_tipo_obra) values
+(1, 2005, "Escolhido", 5.23, "madeira", "surrealista", 1, 1)
