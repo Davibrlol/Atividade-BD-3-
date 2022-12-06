@@ -52,7 +52,7 @@ insert into salao(cod_salao, num_salao, andar_museu, salao) values
 (20, 108, 1, "Genesis"),
 
 insert into salao_obra ( salao_cod_salao, obra_cod_obra, posicao_salao) values
-(1, 1m "centro do salão"),
+(1, 1 "centro do salão"),
 (1, 1m "centro do salão"),
 (1, 1m "centro do salão"),
 (1, 1m "centro do salão"),
@@ -82,11 +82,11 @@ insert into atividade (ob_cod_obra, func_id_funcionario, hora_entrada, hora_said
 insert into funcionario (id_funcionario, nome_funcionario, salario_funcionario, cpf_funcionario, cod_tipo_funcionario) values 
 (1, "Davi", 1440.00, "780.760.123-00", 1),
 
-insert into manu_mat ( Campo_1, Campo_2, qtd_mat_mnt) values
-()
+insert into manu_mat (Campo_1, Campo_2, qtd_mat_mnt) values
+(1, 1, 'dez kilos')
 
 insert into manutencao (mnt_obra, data_termi_mnt, custo_mnt, data_init_mnt, desc_mnt, cod_obra, func_id_funcionario) values
 ('Obra Reformada', "2005-05-10", 5235.00, "2005-02-03", "Feito a restauração", 1, 1  )
 
 insert into materia_prima (cod_mat_prima, qtd_est_mat, nome_mat_prima) values
-()
+(1, 200, "madeira")
